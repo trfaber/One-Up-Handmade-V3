@@ -1,3 +1,4 @@
+/*Desktop Default styles*/
 /*Font settings*/
 body {
     font-family: 'Roboto', sans-serif;
@@ -422,3 +423,14 @@ footer.bottom-nav {
             text-align: right;
             margin: 0.25em;
         }
+
+/*Mobile Styles*/
+@media (max-width: 560px) {
+
+}
+
+/*Tablet Styles*/
+@media (max-width: 1023px) {
+    
+}
+

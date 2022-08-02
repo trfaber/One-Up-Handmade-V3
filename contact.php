@@ -8,13 +8,14 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@300&display=swap" rel="stylesheet">
             <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
+
         <!--Title of Website-->
             <title>One Up Handmade Shop</title>
     
         <!--Styles-->        
-            <link href="./resources/css/index.css" type="text/css" rel="stylesheet" media="screen and (min-width: 600px)">
-            <link href="./resources/css/mobile.css" type="text/css" rel="stylesheet" media="screen and (max-width: 600px)">
+            <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
     </head>
 
     <body>    
