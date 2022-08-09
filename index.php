@@ -28,6 +28,9 @@
             <header>
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
                 <nav class="top-nav">
+                        <a href="#" class="menu"> 
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
                     <!--Nav Links-->
                         <ul class="top-nav">
                             <li class="top-nav"><a href="index.php">Home</a></li>
@@ -44,7 +47,7 @@
                             </span>
                             <!--Shopping Cart-->
                                 <a href="cart.php" class="cart">
-                                    <i class="fa-solid fa-cart-shopping fa-1x"></i>
+                                    <i class="fa-solid fa-cart-shopping"></i>
                                 </a>
                         </div>
                 </nav>
