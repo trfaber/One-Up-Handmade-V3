@@ -7,8 +7,7 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@300&display=swap" rel="stylesheet">
-            <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
-        
+            
         <!--Title of Website-->
             <title>One Up Handmade Shop</title>
     
@@ -28,7 +27,10 @@
             <header>
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
                 <nav class="top-nav">
-                    <!--Nav Links-->
+                    <a href="menu.php" class="menu-icon"> 
+                        <i class="fa-solid fa-bars"></i>
+                    </a>    
+                <!--Nav Links-->
                     <ul class="top-nav">
                         <li class="top-nav"><a href="index.php">Home</a></li>
                         <li class="top-nav"><a href="index.php#shop">Shop</a></li>
@@ -54,7 +56,7 @@
         <!-- Item -->
             <section class="item">
                 <div class="image">
-                    <h3>Shortaloones</h3>
+                    <h3 class="section">Shortaloones</h3>
                     <img src="resources/images/smshorties.jpeg" alt="Sailor Moon Shorites">
                 </div>
                 <form class="item">
@@ -128,6 +130,7 @@
                 <p class="copyright">
                     <small>Webpage Designed by Taylor Faber</small>
                 </p>
+        <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
     </body>
 
 </html>

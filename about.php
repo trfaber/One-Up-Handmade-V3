@@ -7,8 +7,7 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@300&display=swap" rel="stylesheet">
-            <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
-
+           
         <!--Title of Website-->
             <title>One Up Handmade Shop</title>
     
@@ -28,7 +27,10 @@
             <header>
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
                 <nav class="top-nav">
-                    <!--Nav Links-->
+                    <a href="menu.php" class="menu-icon"> 
+                        <i class="fa-solid fa-bars"></i>
+                    </a>    
+                <!--Nav Links-->
                     <ul class="top-nav">
                         <li class="top-nav"><a href="index.php">Home</a></li>
                         <li class="top-nav"><a href="index.php#shop">Shop</a></li>
@@ -52,7 +54,7 @@
             <br>
 
         <!--About-->
-            <h2>About the Maker</h2>
+            <h2 class="section">About the Maker</h2>
                 <div class="about">
                     <img class="about" src="https://d1q8o8ch5u48ua.cloudfront.net/images/maker_profile_pic/1010/34B65FB2-1FCC-4148-AA7B-84398BEFCEFD.jpeg?t=1649517499" alt="About the Maker">
                     <p>Hello, hi! I’m Andrea. My pronouns are she/her/they. I’m a nerdy person and I’d love to make your little something they’d be comfortable in and that lasts years!</p>
@@ -102,6 +104,7 @@
                 <p class="copyright">
                     <small>Webpage Designed by Taylor Faber</small>
                 </p>
+        <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
     </body>
 
 </html>

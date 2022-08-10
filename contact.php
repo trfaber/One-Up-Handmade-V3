@@ -23,7 +23,10 @@
             <header>
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
                 <nav class="top-nav">
-                    <!--Nav Links-->
+                    <a href="menu.php" class="menu-icon"> 
+                        <i class="fa-solid fa-bars"></i>
+                    </a>    
+                <!--Nav Links-->
                     <ul class="top-nav">
                         <li class="top-nav"><a href="index.php">Home</a></li>
                         <li class="top-nav"><a href="index.php#shop">Shop</a></li>
@@ -76,7 +79,7 @@
                     } */
                 ?>
 
-            <h2>Contact Form</h2>
+            <h2 class="section">Contact Form</h2>
                 <div class="container">
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" autocomplete="on">
                         <label for="fname">First Name</label><br>
@@ -139,6 +142,7 @@
                 <p class="copyright">
                     <small>Webpage Designed by Taylor Faber</small>
                 </p>
+        <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
     </body>
 
 </html>

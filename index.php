@@ -7,7 +7,6 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@300&display=swap" rel="stylesheet">
-            <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
 
         <!--Title of Website-->
             <title>One Up Handmade Shop</title>
@@ -28,7 +27,7 @@
             <header>
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
                 <nav class="top-nav">
-                        <a href="#" class="menu"> 
+                        <a href="menu.php" class="menu-icon"> 
                             <i class="fa-solid fa-bars"></i>
                         </a>
                     <!--Nav Links-->
@@ -66,10 +65,10 @@
                     <td><img src="https://goimagine.com/images/detailed/1011/4ADC0E8C-7404-4F69-922F-EC48A6157ECF_org.jpeg" alt="product image"></td>
                 </tr>
             </table>
-            <hr>
+            <hr id=shop>
 
         <!--Shop-->
-            <section id=shop>
+            <section>
                 <div class="catagories">
                     <h3>Catagories</h3>
                     <ul>
@@ -137,7 +136,7 @@
                 <p class="copyright">
                     <small>Webpage Designed by Taylor Faber</small>
                 </p>
-
+                <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
     </body>
 
 </html>
